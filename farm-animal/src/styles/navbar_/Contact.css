@@ -1,0 +1,41 @@
+/* Adjust CSS to make it work for all resoultion  */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+    background-color: #fff1f0;
+    height: 100vh;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    box-shadow: 2px 2px;
+    background-color: white;
+    padding-top:2rem;
+    height: 40rem;
+    width: 25%;
+}
+.contact-label {
+    font-size: 18px;
+}
+.contact-input {
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    width:80%;
+}
+.contact-text {
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 80%;
+    width: 500px;
+    max-height: 500px;
+    min-height: 200px;
+    resize: none;
+}
